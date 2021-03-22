@@ -18,7 +18,7 @@ db.session.commit()
 Category.query.filter_by(name='Jython').delete()
 
 print(py.posts)
-x = Post.query.with_parent(px).filter(Post.title != 'Snakes').all()
-print(x)
+#x = Post.query.with_parent(px).filter(Post.title != 'Snakes').all()
+#print(x)
 
 
